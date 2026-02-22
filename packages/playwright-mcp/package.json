@@ -1,17 +1,33 @@
 {
-  "name": "@playwright/mcp-humanized",
-  "version": "0.0.68",
-  "description": "Playwright Tools for MCP with human-like mouse movements",
+  "name": "playwright-mcp-humanized",
+  "version": "1.0.0",
+  "description": "Drop-in Playwright Tools for MCP with anti-bot curved mouse movements and log-normal typing delays. Bypasses detection by Cloudflare, DataDome, PerimeterX, etc.",
+  "keywords": [
+    "mcp",
+    "playwright",
+    "mcp-server",
+    "humanized",
+    "bot-detection",
+    "stealth",
+    "ai-agents",
+    "claude",
+    "opencode",
+    "cursor",
+    "browser-automation"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/playwright-mcp.git"
+    "url": "git+https://github.com/njoppi2/playwright-mcp-humanized.git"
   },
-  "homepage": "https://playwright.dev",
+  "bugs": {
+    "url": "https://github.com/njoppi2/playwright-mcp-humanized/issues"
+  },
+  "homepage": "https://github.com/njoppi2/playwright-mcp-humanized#readme",
   "engines": {
     "node": ">=18"
   },
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "njoppi2"
   },
   "license": "Apache-2.0",
   "scripts": {
