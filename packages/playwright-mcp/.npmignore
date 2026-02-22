@@ -2,5 +2,9 @@
 !README.md
 !LICENSE
 !cli.js
+!cli-humanized.js
+!humanize.js
+!patch.js
+!package.json
 !index.*
 !config.d.ts
