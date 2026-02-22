@@ -1,7 +1,7 @@
 {
-  "name": "@playwright/mcp",
+  "name": "@playwright/mcp-humanized",
   "version": "0.0.68",
-  "description": "Playwright Tools for MCP",
+  "description": "Playwright Tools for MCP with human-like mouse movements",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/microsoft/playwright-mcp.git"
@@ -32,10 +32,12 @@
     }
   },
   "dependencies": {
+    "ghost-cursor-playwright": "^2.1.0",
     "playwright": "1.59.0-alpha-1771104257000",
     "playwright-core": "1.59.0-alpha-1771104257000"
   },
   "bin": {
-    "playwright-mcp": "cli.js"
+    "playwright-mcp": "cli-humanized.js",
+    "playwright-mcp-humanized": "cli-humanized.js"
   }
 }
